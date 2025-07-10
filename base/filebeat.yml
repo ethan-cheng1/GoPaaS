@@ -1,0 +1,11 @@
+# Input
+# filebeat download link
+# https://www.elastic.co/downloads/past-releases/filebeat-7-9-3/
+filebeat.inputs:
+  - type: log
+    enabled: true
+    paths:
+      - ./*.log
+# Output
+output.logstash:
+  hosts: ["localhost:5044"]

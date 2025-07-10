@@ -1,0 +1,2 @@
+{"level":"info","ts":"2022-03-07T23:01:51.782+0800","caller":"base/main.go:45","msg":"连接mysql 成功"}
+{"level":"info","ts":"2022-03-07T23:01:51.785+0800","caller":"base/main.go:66","msg":"添加 日志系统 ！"}

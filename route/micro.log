@@ -1,0 +1,7 @@
+{"level":"info","ts":"2022-06-20T00:01:08.546+0800","caller":"handler/routeHandler.go:39","msg":"Route 添加成功 ID 号为：6"}
+{"level":"info","ts":"2022-06-20T00:06:00.206+0800","caller":"service/route_data_service.go:144","msg":"删除 ingress ID：6 成功！"}
+{"level":"info","ts":"2022-07-31T21:13:58.873+0800","caller":"handler/routeHandler.go:39","msg":"Route 添加成功 ID 号为：6"}
+{"level":"error","ts":"2022-07-31T21:14:05.864+0800","caller":"service/route_data_service.go:51","msg":"an empty namespace may not be set during creation"}
+{"level":"error","ts":"2022-07-31T21:14:05.864+0800","caller":"handler/routeHandler.go:28","msg":"an empty namespace may not be set during creation"}
+{"level":"info","ts":"2022-07-31T21:23:24.900+0800","caller":"service/route_data_service.go:144","msg":"删除 ingress ID：6 成功！"}
+{"level":"info","ts":"2022-07-31T21:23:50.520+0800","caller":"handler/routeHandler.go:39","msg":"Route 添加成功 ID 号为：7"}

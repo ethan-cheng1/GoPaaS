@@ -1,0 +1,2 @@
+{"level":"error","ts":"2022-07-31T21:13:58.554+0800","caller":"handler/routeApiHandler.go:74","msg":"fallback failed with 'hystrix: timeout'. run error was 'hystrix: timeout'"}
+{"level":"error","ts":"2022-07-31T21:14:05.865+0800","caller":"handler/routeApiHandler.go:74","msg":"fallback failed with 'an empty namespace may not be set during creation'. run error was 'an empty namespace may not be set during creation'"}
