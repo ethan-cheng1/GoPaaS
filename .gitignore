@@ -1,0 +1,213 @@
+# GoPaaS Platform - Root .gitignore
+
+# Go specific
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+go.work
+
+# Go build artifacts
+bin/
+dist/
+build/
+
+# Go module files (keep go.sum for dependency integrity)
+# go.sum
+
+# IDE and Editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+logs/
+micro.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# nyc test coverage
+.nyc_output
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Microbundle cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variables file
+.env
+.env.test
+.env.local
+.env.production
+
+# parcel-bundler cache (https://parceljs.org/)
+.cache
+.parcel-cache
+
+# Next.js build output
+.next
+
+# Nuxt.js build / generate output
+.nuxt
+dist
+
+# Gatsby files
+.cache/
+public
+
+# Storybook build outputs
+.out
+.storybook-out
+
+# Temporary folders
+tmp/
+temp/
+
+# Docker
+.dockerignore
+
+# Kubernetes
+*.kubeconfig
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Compressed files
+*.zip
+*.tar.gz
+*.rar
+
+# Binary files
+*.bin
+
+# Configuration files with sensitive data
+config.local.*
+secrets.*
+*.key
+*.pem
+*.crt
+
+# Monitoring and tracing
+jaeger-data/
+prometheus-data/
+
+# ELK stack data
+elasticsearch-data/
+logstash-data/
+
+# MySQL data (if not using volumes)
+mysql-data/
+
+# Consul data
+consul-data/
+
+# Build artifacts
+*.o
+*.a
+*.so
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool
+*.out
+
+# Go workspace file
+go.work
+
+# Air live reload
+tmp/
+
+# Delve debugger
+__debug_bin
+
+# Local development
+.local/
+local/
+
+# Vendor directory (if using vendoring)
+vendor/
+
+# Generated protobuf files (if you want to ignore them)
+# *.pb.go
+# *.pb.micro.go
+
+# Helm charts
+charts/*/charts/
+charts/*/requirements.lock
+
+# Certificates
+*.pem
+*.key
+*.crt
+*.csr
+
+# SSH keys
+id_rsa
+id_rsa.pub
+
+# Cloud credentials
+.aws/
+.azure/
+.gcloud/
+
+# Local configuration overrides
+config.local.*
+.env.local
+.env.*.local 
