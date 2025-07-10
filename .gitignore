@@ -123,6 +123,21 @@ temp/
 *.sqlite
 *.sqlite3
 
+# MySQL specific files
+*.ibd
+*.ibdata1
+*.ibdata2
+*.ib_logfile0
+*.ib_logfile1
+*.frm
+*.MYD
+*.MYI
+*.opt
+auto.cnf
+mysql/
+paas/
+performance_schema/
+
 # Backup files
 *.bak
 *.backup
